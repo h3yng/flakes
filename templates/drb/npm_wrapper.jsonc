@@ -1,0 +1,34 @@
+{
+  "repo_url": "https://github.com/h3yng/tabby",
+  "features": {
+    "npm_wrapper": true,
+    "goreleaser": false,
+    "github_actions": false,
+    "aur": false
+  },
+  "binary_name": "binary-name",
+  "package_name": "package-name",
+  "license": "AGPL-3.0",
+  "description": "terminal based api stress testing with random data",
+  "version": "v0.1.2",
+  "platforms": [
+    "darwin-arm64",
+    "windows-amd64",
+    "linux-amd64"
+  ],
+  "mode": "manual",
+  "asset_urls": {
+    "darwin-arm64": [
+      "https://github.com/h3yng/tabby/releases/download/v0.1.2/tabby_0.1.2_darwin_amd64.tar.gz",
+      "https://github.com/h3yng/tabby/releases/download/v0.1.2/tabby_0.1.2_darwin_arm64.tar.gz"
+    ],
+    "windows-amd64": [
+      "https://github.com/h3yng/tabby/releases/download/v0.1.2/tabby_0.1.2_windows_amd64.zip",
+      "https://github.com/h3yng/tabby/releases/download/v0.1.2/tabby_0.1.2_windows_arm64.zip"
+    ],
+    "linux-amd64": [
+      "https://github.com/h3yng/tabby/releases/download/v0.1.2/tabby_0.1.2_linux_amd64.tar.gz",
+      "https://github.com/h3yng/tabby/releases/download/v0.1.2/tabby_0.1.2_linux_arm64.tar.gz"
+    ]
+  }
+}
