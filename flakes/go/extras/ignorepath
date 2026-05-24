@@ -52,3 +52,5 @@ tmp/
 .env
 .envrc
 
+# nix and stuff
+.direnv/

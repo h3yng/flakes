@@ -1,0 +1,7 @@
+{
+    "repo_url": "https://github.com/h3yng/drb99",
+    "binary_name": "binary_name",
+    "features": {
+        "nix_flake": true
+    }
+}
